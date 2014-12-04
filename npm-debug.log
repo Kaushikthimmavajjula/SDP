@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files (x86)\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'slush',
+1 verbose cli   'wean' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink C:\Program Files (x86)\nodejs\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'slush', null ]
+7 verbose cache add name=undefined spec="slush" args=["slush",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'slush',
+8 verbose parsed url   path: 'slush',
+8 verbose parsed url   href: 'slush' }
+9 verbose cache add [ 'wean', null ]
+10 verbose cache add name=undefined spec="wean" args=["wean",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'wean',
+11 verbose parsed url   path: 'wean',
+11 verbose parsed url   href: 'wean' }
+12 silly lockFile d525fbd8-slush slush
+13 verbose lock slush C:\Users\kaushik\AppData\Roaming\npm-cache\d525fbd8-slush.lock
+14 silly lockFile 3a24d5d7-wean wean
+15 verbose lock wean C:\Users\kaushik\AppData\Roaming\npm-cache\3a24d5d7-wean.lock
+16 silly lockFile d525fbd8-slush slush
+17 silly lockFile d525fbd8-slush slush
+18 silly lockFile 3a24d5d7-wean wean
+19 silly lockFile 3a24d5d7-wean wean
+20 verbose addNamed [ 'slush', '' ]
+21 verbose addNamed [ null, '*' ]
+22 silly lockFile 34e42c56-slush slush@
+23 verbose lock slush@ C:\Users\kaushik\AppData\Roaming\npm-cache\34e42c56-slush.lock
+24 verbose addNamed [ 'wean', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 08c1c7fe-wean wean@
+27 verbose lock wean@ C:\Users\kaushik\AppData\Roaming\npm-cache\08c1c7fe-wean.lock
+28 silly addNameRange { name: 'slush', range: '*', hasData: false }
+29 silly addNameRange { name: 'wean', range: '*', hasData: false }
+30 verbose request where is /wean
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 95e1fcf95b95c765
+33 verbose url raw /wean
+34 verbose url resolving [ 'https://registry.npmjs.org/', './wean' ]
+35 verbose url resolved https://registry.npmjs.org/wean
+36 verbose request where is https://registry.npmjs.org/wean
+37 info trying registry request attempt 1 at 06:35:47
+38 http GET https://registry.npmjs.org/wean
+39 verbose request where is /slush
+40 verbose request registry https://registry.npmjs.org/
+41 verbose url raw /slush
+42 verbose url resolving [ 'https://registry.npmjs.org/', './slush' ]
+43 verbose url resolved https://registry.npmjs.org/slush
+44 verbose request where is https://registry.npmjs.org/slush
+45 info trying registry request attempt 1 at 06:35:48
+46 verbose etag "5PCJETR0PIHFHOR7CBC72OR6U"
+47 http GET https://registry.npmjs.org/slush
+48 http 304 https://registry.npmjs.org/slush
+49 silly registry.get cb [ 304,
+49 silly registry.get   { date: 'Thu, 04 Dec 2014 11:35:48 GMT',
+49 silly registry.get     server: 'Apache',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     'last-modified': 'Thu, 04 Dec 2014 11:35:48 GMT',
+49 silly registry.get     'cache-control': 'max-age=60',
+49 silly registry.get     etag: '"5PCJETR0PIHFHOR7CBC72OR6U"',
+49 silly registry.get     age: '12',
+49 silly registry.get     'x-served-by': 'cache-iad2125-IAD',
+49 silly registry.get     'x-cache': 'HIT',
+49 silly registry.get     'x-cache-hits': '1',
+49 silly registry.get     'x-timer': 'S1417692948.484805,VS0,VE0',
+49 silly registry.get     vary: 'Accept',
+49 silly registry.get     'content-length': '0',
+49 silly registry.get     'keep-alive': 'timeout=10, max=50',
+49 silly registry.get     connection: 'Keep-Alive' } ]
+50 verbose etag https://registry.npmjs.org/slush from cache
+51 silly addNameRange number 2 { name: 'slush', range: '*', hasData: true }
+52 silly addNameRange versions [ 'slush', [ '0.1.0', '1.0.0', '1.0.1' ] ]
+53 verbose addNamed [ 'slush', '1.0.1' ]
+54 verbose addNamed [ '1.0.1', '1.0.1' ]
+55 silly lockFile 01684dfd-slush-1-0-1 slush@1.0.1
+56 verbose lock slush@1.0.1 C:\Users\kaushik\AppData\Roaming\npm-cache\01684dfd-slush-1-0-1.lock
+57 silly lockFile 01684dfd-slush-1-0-1 slush@1.0.1
+58 silly lockFile 01684dfd-slush-1-0-1 slush@1.0.1
+59 silly lockFile 34e42c56-slush slush@
+60 silly lockFile 34e42c56-slush slush@
+61 http 404 https://registry.npmjs.org/wean
+62 verbose headers { date: 'Thu, 04 Dec 2014 11:35:48 GMT',
+62 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+62 verbose headers   'content-type': 'application/json',
+62 verbose headers   'cache-control': 'max-age=0',
+62 verbose headers   'content-length': '52',
+62 verbose headers   'accept-ranges': 'bytes',
+62 verbose headers   via: '1.1 varnish',
+62 verbose headers   age: '0',
+62 verbose headers   'x-served-by': 'cache-iad2120-IAD',
+62 verbose headers   'x-cache': 'MISS',
+62 verbose headers   'x-cache-hits': '0',
+62 verbose headers   'x-timer': 'S1417692948.449336,VS0,VE56',
+62 verbose headers   'keep-alive': 'timeout=10, max=50',
+62 verbose headers   connection: 'Keep-Alive' }
+63 silly registry.get cb [ 404,
+63 silly registry.get   { date: 'Thu, 04 Dec 2014 11:35:48 GMT',
+63 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+63 silly registry.get     'content-type': 'application/json',
+63 silly registry.get     'cache-control': 'max-age=0',
+63 silly registry.get     'content-length': '52',
+63 silly registry.get     'accept-ranges': 'bytes',
+63 silly registry.get     via: '1.1 varnish',
+63 silly registry.get     age: '0',
+63 silly registry.get     'x-served-by': 'cache-iad2120-IAD',
+63 silly registry.get     'x-cache': 'MISS',
+63 silly registry.get     'x-cache-hits': '0',
+63 silly registry.get     'x-timer': 'S1417692948.449336,VS0,VE56',
+63 silly registry.get     'keep-alive': 'timeout=10, max=50',
+63 silly registry.get     connection: 'Keep-Alive' } ]
+64 silly lockFile 08c1c7fe-wean wean@
+65 silly lockFile 08c1c7fe-wean wean@
+66 error 404 404 Not Found: wean
+66 error 404
+66 error 404 'wean' is not in the npm registry.
+66 error 404 You should bug the author to publish it
+66 error 404 It was specified as a dependency of 'vtak'
+66 error 404
+66 error 404 Note that you can also install from a
+66 error 404 tarball, folder, or http url, or git url.
+67 error System Windows_NT 6.2.9200
+68 error command "C:\\Program Files (x86)\\nodejs\\\\node.exe" "C:\\Program Files (x86)\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "slush" "wean"
+69 error cwd C:\Users\kaushik\Desktop\vTak
+70 error node -v v0.10.33
+71 error npm -v 1.4.28
+72 error code E404
+73 verbose exit [ 1, true ]
